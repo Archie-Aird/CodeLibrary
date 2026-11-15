@@ -1,0 +1,1 @@
+pfind = (lambda z: (lambda y: y == y[::-1])((lambda x: "".join(y for y in x if y.isalpha()))(z.lower())))
